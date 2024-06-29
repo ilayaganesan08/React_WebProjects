@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+*{
+    font-family: "Playwrite Deutschland Grundschrift", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5252;
+}
+
+div{
+color: white;
+text-align: center;
+}
+
+div button{
+    /* border: none; */
+    background-color: rgb(19, 46, 42);
+    color: aliceblue;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
