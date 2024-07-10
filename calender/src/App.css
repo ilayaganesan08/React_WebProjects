@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+*{
+  font-family:"Bodoni+Moda+SC", sans-serif ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #555;
+}
+
+.calender{
+  width: 400px;
+  background-color: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0,0, 0, 0.1);
+  padding: 5px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5985;
+  color: #fff;
+  padding: 5px;
+}
+
+button{
+  background:none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+
+select{
+  font-size: 18px;
+  padding: 0px 8px;
+  border: 1px solid #5985;
+  border-radius: 4px;
+  margin: 0 10px;
+
+}
+
+.daysOfWeek{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #5985 ;
+  color: #030303;
+  margin-bottom: 10px;
+}
+
+.days{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  gap: 8px;
+}
+
+.day,
+.empty{
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.empty{
+  background-color: #f9f9f9;
+}
+
+.day:hover{
+  background-color: #5985;
+  color: #030303;
+}
+
+.current{
+  background-color: turquoise;
+}
